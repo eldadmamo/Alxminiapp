@@ -1,0 +1,78 @@
+.intro-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire background */
+    z-index: 1;
+}
+
+.overlay {
+    position: relative;
+    z-index: 2; /* Keeps the overlay on top of the video */
+    text-align: center;
+    color: #fff;
+}
+
+.date-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation: fadeInText 2s ease-in-out 1;
+}
+
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.logo-container {
+    margin-top: 20px;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 100%;
+    padding: 20px;
+    animation: bounce 2s infinite;
+}
+
+.rabbit-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rocky-rabbit-text {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    animation: fadeInText 3s ease-in-out 1;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+

@@ -20,7 +20,7 @@ function PhoneNumberValidation(){
 
     return (
         <div>
-            <label>
+            <label className="text-white-800">
                 Phone Number:
                 <Input
                 type="text"

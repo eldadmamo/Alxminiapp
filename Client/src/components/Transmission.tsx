@@ -20,7 +20,7 @@ const Transmission: React.FC<TransmissionProps> = ({ selectedTransmission, setSe
 
     return (
         <div>
-            <label className="block text-lg font-semibold text-gray-700 mb-2">Transmission*:</label>
+            <label className="block text-lg font-semibold text-white-800 mb-2">Transmission*:</label>
             <select
                 required
                 value={selectedTransmission}

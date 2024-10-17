@@ -211,7 +211,7 @@ function Uploads() {
                           <CarYear selectedYear={year} setSelectedYear={setYear}/>
                         </div>
                         <div>
-                          <label className="block text-lg font-semibold text-gray-700 mb-2">Price*:</label>
+                          <label className="block text-lg font-semibold text-white-800 mb-2">Price*:</label>
                           <input
                               required
                               type="text"
@@ -229,7 +229,7 @@ function Uploads() {
                           />
                         </div>
                         <div>
-                          <label className="block text-lg font-semibold text-gray-700 mb-2">Plate
+                          <label className="block text-lg font-semibold text-white-800 mb-2">Plate
                             Number(optional):</label>
                           <input
                               type="String"
@@ -241,7 +241,7 @@ function Uploads() {
                           />
                         </div>
                         <div>
-                          <label className="block text-lg font-semibold text-gray-700 mb-2">Milage(optional):</label>
+                          <label className="block text-lg font-semibold text-white-800 mb-2">Milage(optional):</label>
                           <input
                               type="text"
                               value={milage}
@@ -270,7 +270,7 @@ function Uploads() {
                         />
                       </div>
                       <div className="">
-                        <label className="block text-lg font-semibold text-gray-700 mb-2">Upload Photos</label>
+                        <label className="block text-lg font-semibold text-white-800 mb-2">Upload Photos</label>
                         <input
                             type="file"
                             onChange={(e) => MultipleFileChange(e)}

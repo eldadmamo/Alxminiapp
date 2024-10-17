@@ -33,7 +33,7 @@ const EngineWork: React.FC<EngineWorkProps> = ({ selectedEngine, setSelectedEngi
 
     return (
         <div>
-            <label className="block text-lg font-semibold text-gray-700 mb-2">Engine*:</label>
+            <label className="block text-lg font-semibold text-white-800 mb-2">Engine*:</label>
             <select
                 required
                 value={selectedEngine}

@@ -11,8 +11,8 @@ const CarCondition: React.FC<CarConditionProps> = ({ setCondition }) => {
     };
 
     return (
-        <div className='max-w-lg mx-auto mb-6 space-y-4'>
-            <label className='block text-lg font-semibold text-gray-800 mb-2'>
+        <div className='max-w-lg mx-auto mb-6'>
+            <label className='block text-lg font-semibold text-white-800 mb-2'>
                 Condition*:
             </label>
             <div className="relative">

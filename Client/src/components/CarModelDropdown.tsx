@@ -26,7 +26,7 @@ const CarModelDropdown: React.FC<CarModelDropdownProps> = ({ selectedMake, setSe
         <div className="max-w-lg mx-auto mb-6 space-y-4">
             {/* Make Dropdown */}
             <div>
-                <label className="block text-lg font-semibold text-gray-800 mb-2">Make*:</label>
+                <label className="block text-lg font-semibold text-white-800 mb-2">Make*:</label>
                 <div className="relative">
                     <select
                         required
@@ -41,7 +41,7 @@ const CarModelDropdown: React.FC<CarModelDropdownProps> = ({ selectedMake, setSe
                             </option>
                         ))}
                     </select>
-                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-white-800">
                         <svg
                             className="fill-current h-4 w-4"
                             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ const CarModelDropdown: React.FC<CarModelDropdownProps> = ({ selectedMake, setSe
 
             {/* Model Dropdown */}
             <div>
-                <label className="block text-lg font-semibold text-gray-800 mb-2">Model*:</label>
+                <label className="block text-lg font-semibold text-white-800 mb-2">Model*:</label>
                 <div className="relative">
                     <select
                         value={selectedModel}

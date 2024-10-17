@@ -22,7 +22,7 @@ const FuelTypes: React.FC<FuelTypesProps> = ({ selectedFuel, setSelectedFuel }) 
 
     return (
         <div>
-            <label className="block text-lg font-semibold text-gray-700 mb-2">Fuel*:</label>
+            <label className="block text-lg font-semibold text-white-800  mb-2">Fuel*:</label>
             <select
                 required
                 value={selectedFuel}

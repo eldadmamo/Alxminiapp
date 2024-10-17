@@ -38,7 +38,7 @@ const Color: React.FC<ColorProps> = ({ selectedColor, setSelectedColor }) => {
 
     return (
         <div>
-            <label className="block text-lg font-semibold text-gray-700 mb-2">Color*:</label>
+            <label className="block text-lg font-semibold text-white-800  mb-2">Color*:</label>
             <select
                 required
                 value={selectedColor}

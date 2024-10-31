@@ -1,77 +1,38 @@
-# Hamster Kombat Clone
+# Hulemekina - Car Dealership Platform (Client)
 
-This repository contains the initial setup and the final version of the Hamster Kombat clone project, including the basic project structure, necessary images, and icons.
+Hulemekina is a car-buying platform designed to provide users with a seamless experience to search, browse, and interact with trusted car listings from verified dealers and private sellers.
 
-## Overview
+## Features
 
-This project is a clone of the popular Telegram mini app, Hamster Kombat. The repository provides two branches:
+- **Responsive Design**: Built with React.js to ensure a smooth, user-friendly experience on all devices.
+- **User Authentication**: Secure JWT-based user authentication and session management.
+- **Real-Time Updates**: Instant access to new car listings and information.
+- **Image Uploads**: Supports image uploads for car listings using Multer on the server.
+- **Telegram Bot Integration**: Receive real-time notifications about car listings via Telegram.
 
-1. **Initial Setup**: Provides the foundational structure and assets needed to build the full application.
-2. **Final Version**: The completed application with all functionalities.
+## Tech Stack
+
+- **Front End**: React.js, Vite
+- **State Management**: Context API
+- **Styling**: CSS/Sass
 
 ## Getting Started
 
-To get started with either the initial setup or the final version, follow these instructions:
+### Installation
 
-### Cloning the Repository
-
-1. **Clone the Repository**:
-
-    ```bash
-    git clone https://github.com/nikandr-surkov/Hamster-Kombat-Telegram-Mini-App-Clone.git
-    cd Hamster-Kombat-Telegram-Mini-App-Clone
-    ```
-
-### Initial Setup
-
-2. **Switch to the `initial-setup` Branch**:
-
-    ```bash
-    git checkout initial-setup
-    ```
-
-3. **Install Dependencies**:
-
-    ```bash
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/eldadmamo/hulemekina-client.git
+2. Install dependencies:
+   cd hulemekina-client                                                                                                                                             
     npm install
-    ```
+3. Set up the environment variables:
+   Create a .env file in the root directory and add:
+   VITE_API_URL=http://localhost:5000
+   VITE_TELEGRAM_BOT_URL=https://telegram.me/your_bot
+4. Start the development server:
+   npm run dev
+   Visit the app in your browser:
+   http://localhost:5173
 
-4. **Run the Development Server**:
 
-    ```bash
-    npm run dev
-    ```
-
-5. **Open Your Browser**:
-
-    Navigate to localhost to see the initial setup.
-
-### Final Version
-
-2. **Switch to the `final-version` Branch**:
-
-    ```bash
-    git checkout final-version
-    ```
-
-3. **Install Dependencies**:
-
-    ```bash
-    npm install
-    ```
-
-4. **Run the Development Server**:
-
-    ```bash
-    npm run dev
-    ```
-
-5. **Open Your Browser**:
-
-    Navigate to localhost to see the final version of the application.
-
-## Contact
-
-For any inquiries, please contact me in Telegram: [Nikandr Surkov](https://t.me/nikandr_s).
-
-"# alxminiapp" 

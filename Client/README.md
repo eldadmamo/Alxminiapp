@@ -14,7 +14,7 @@ Car-buying platform designed to provide users with a seamless experience to sear
 
 - **Front End**: React.js, Vite
 - **State Management**: Context API
-- **Styling**: CSS/Sass
+- **Styling**: TailWindcss
 
 ## Getting Started
 

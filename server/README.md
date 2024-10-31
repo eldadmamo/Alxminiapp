@@ -1,5 +1,3 @@
-### Server README (Backend)
-
 # Car Dealership Platform (Server)
 
 This repository houses the backend server for the Hulemekina platform, managing API endpoints, authentication, and data management for car listings and user interactions.

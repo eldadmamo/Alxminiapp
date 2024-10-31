@@ -1,6 +1,6 @@
-# Hulemekina - Car Dealership Platform (Client)
+# Car Dealership Platform (Client)
 
-Hulemekina is a car-buying platform designed to provide users with a seamless experience to search, browse, and interact with trusted car listings from verified dealers and private sellers.
+Car-buying platform designed to provide users with a seamless experience to search, browse, and interact with trusted car listings from verified dealers and private sellers.
 
 ## Features
 
